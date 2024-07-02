@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div>
+    <>
       <div className='title'>Enhance Your Learning</div>
 	  <div className='description'>An AI model that finds out the best educational resources<br />in the clutter specifically for you. An AI that adapts<br />to your needs needs to enhance your learning.</div>
 
@@ -27,7 +27,7 @@ function Home() {
       	</Link>
 	  </div>
       
-    </div>
+    </>
   );
 }
 
